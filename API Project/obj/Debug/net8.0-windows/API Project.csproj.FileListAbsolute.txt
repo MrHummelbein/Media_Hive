@@ -1,0 +1,23 @@
+C:\Users\OlafH\source\repos\API Project\API Project\bin\Debug\net8.0-windows\API Project.exe
+C:\Users\OlafH\source\repos\API Project\API Project\bin\Debug\net8.0-windows\API Project.deps.json
+C:\Users\OlafH\source\repos\API Project\API Project\bin\Debug\net8.0-windows\API Project.runtimeconfig.json
+C:\Users\OlafH\source\repos\API Project\API Project\bin\Debug\net8.0-windows\API Project.dll
+C:\Users\OlafH\source\repos\API Project\API Project\bin\Debug\net8.0-windows\API Project.pdb
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project_MarkupCompile.cache
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project_MarkupCompile.lref
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.g.resources
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.AssemblyInfoInputs.cache
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.AssemblyInfo.cs
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.csproj.CoreCompileInputs.cache
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.dll
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\refint\API Project.dll
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.pdb
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.genruntimeconfig.cache
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\ref\API Project.dll
+C:\Users\OlafH\source\repos\API Project\API Project\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Project.csproj.AssemblyReference.cache
+C:\Users\OlafH\source\repos\API Project\API Project\obj\Debug\net8.0-windows\API Proj.68204302.Up2Date
