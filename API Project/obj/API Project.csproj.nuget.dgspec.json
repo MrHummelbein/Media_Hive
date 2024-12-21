@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OlafH\\source\\repos\\API Project\\API Project\\API Project.csproj": {}
+    "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\API Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OlafH\\source\\repos\\API Project\\API Project\\API Project.csproj": {
+    "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\API Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OlafH\\source\\repos\\API Project\\API Project\\API Project.csproj",
+        "projectUniqueName": "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\API Project.csproj",
         "projectName": "API Project",
-        "projectPath": "C:\\Users\\OlafH\\source\\repos\\API Project\\API Project\\API Project.csproj",
+        "projectPath": "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\API Project.csproj",
         "packagesPath": "C:\\Users\\OlafH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OlafH\\source\\repos\\API Project\\API Project\\obj\\",
+        "outputPath": "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

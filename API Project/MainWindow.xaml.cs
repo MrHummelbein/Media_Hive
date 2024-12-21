@@ -41,21 +41,34 @@ namespace API_Project
 
             try
             {
+                // Ladebalken anzeigen
+                LoadingBar.Visibility = Visibility.Visible;
+                LoadingBar.Value = 0;
+
+                // Parallele API-Aufrufe
+                var openLibraryTask = SearchOpenLibary(query);
+                var omdbTask = SearchOMDB(query);
+                var igdbTask = SearchIGDB(query);
+
+                var tasks = new List<Task> { openLibraryTask, omdbTask, igdbTask };
+                int totalTasks = tasks.Count;
+
+                // Fortschritt überwachen
+                foreach (var task in tasks)
+                {
+                    await task;
+                    LoadingBar.Value += 100 / totalTasks; // Fortschritt erhöhen
+                }
+
+                // Ergebnisse sammeln
                 var results = new List<string>();
+                if (!string.IsNullOrEmpty(openLibraryTask.Result))
+                {
+                    results.Add(openLibraryTask.Result);
+                }
 
-                // OpenLibary API 
-                var bookResult = await SearchOpenLibary(query);
-                if (!string.IsNullOrEmpty(bookResult))
-                    results.Add(bookResult);
-                
-                // OMDB API
-                var movieResults = await SearchOMDB(query);
-                results.AddRange(movieResults);
-                
-                // IGDB API
-                var gameResults = await SearchIGDB(query);
-                results.AddRange(gameResults);
-
+                results.AddRange(omdbTask.Result);
+                results.AddRange(igdbTask.Result);
                 // Ergebnisse Anzeigen
                 SearchResults.Text = string.Join("\n\n", results);
 
@@ -67,6 +80,12 @@ namespace API_Project
             catch (Exception ex)
             {
                 MessageBox.Show($"Fehler bei der API-Abfrage: {ex.Message}", "Fehler!", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            finally
+            {
+                // Ladebalken ausblenden
+                LoadingBar.Visibility = Visibility.Hidden;
+                LoadingBar.Value = 0;
             }
         }
 
@@ -168,9 +187,7 @@ namespace API_Project
             {
                 string title = game.GetProperty("name").GetString() ?? "Unbekannt";
                 string year = game.TryGetProperty("first_release_date", out var yearProp) ? DateTimeOffset.FromUnixTimeSeconds(yearProp.GetInt64()).Year.ToString() : "Unbekannt";
-                string developer = "Entwickler unbekannt"; // Erweiterung erforderlich für genauere Informationen
-                string publisher = "Publisher unbekannt"; // Erweiterung erforderlich
-                results.Add($"Spiel:\nTitel: {title}\nErscheinungsjahr: {year}\nEntwickler: {developer}\nPublisher: {publisher}");
+                results.Add($"Spiel:\nTitel: {title}\nErscheinungsjahr: {year}");
             }
 
             return results;
