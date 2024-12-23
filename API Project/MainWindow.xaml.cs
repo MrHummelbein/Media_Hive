@@ -27,6 +27,14 @@ namespace API_Project
             InitializeComponent();
         }
 
+        // für die Darstellung in der Tabelle nötig 
+        private class ResultRow
+        {
+            public string Book { get; set; }
+            public string Movie { get; set; }
+            public string Game { get; set; }
+        }
+
         private async void SearchButton_Click(object sender, RoutedEventArgs e)
         {
             // Hier wird der Title von der Searchbox gespeichert
@@ -61,19 +69,28 @@ namespace API_Project
                 }
 
                 // Ergebnisse sammeln
-                var results = new List<string>();
-                if (!string.IsNullOrEmpty(openLibraryTask.Result))
+                var books = openLibraryTask.Result;
+                var movies = omdbTask.Result;
+                var games = igdbTask.Result;
+
+                // Füge die Daten zu einem tabellarischen Layout zusammen
+                var maxRows = Math.Max(books.Count, Math.Max(movies.Count, games.Count));
+                var tableData = new List<ResultRow>();
+
+                for (int i = 0; i < maxRows; i++)
                 {
-                    results.Add(openLibraryTask.Result);
+                    tableData.Add(new ResultRow
+                    {
+                        Book = i < books.Count ? $"{books[i].Title}\n{books[i].Author}\n{books[i].Year}" : "",
+                        Movie = i < movies.Count ? $"{movies[i].Title}\n{movies[i].Year}" : "",
+                        Game = i < games.Count ? $"{games[i].Title}\n{games[i].Developer}\n{games[i].Year}" : ""
+                    });
                 }
 
-                results.AddRange(omdbTask.Result);
-                results.AddRange(igdbTask.Result);
-                // Ergebnisse Anzeigen
-                SearchResults.Text = string.Join("\n\n", results);
+                ResultsDataGrid.ItemsSource = tableData;
 
                 // In einer .csv speichern
-                SaveResultsToCsv(results);
+                SaveResultsToCsv(books, movies, games);
                 MessageBox.Show("Ergebnisse wurden erfolgreich gespeichert!", "Erfolg", MessageBoxButton.OK, MessageBoxImage.Information);
 
             }
@@ -90,7 +107,7 @@ namespace API_Project
         }
 
         // API abfrage mit der OpenLibary API
-        private async Task<string> SearchOpenLibary(string query)
+        private async Task<List<(string Title, string Author, string Year)>> SearchOpenLibary(string query)
         {
             using var client = new HttpClient();
             string url = $"https://openlibrary.org/search.json?title={Uri.EscapeDataString(query)}";
@@ -100,20 +117,36 @@ namespace API_Project
             var json = await response.Content.ReadAsStringAsync();
             var data = JsonDocument.Parse(json);
 
-            var book = data.RootElement.GetProperty("docs").EnumerateArray().FirstOrDefault();
-            if (book.ValueKind != JsonValueKind.Undefined)
+            var books = new List<(string Title, string Author, string Year)>();
+
+            foreach (var book in data.RootElement.GetProperty("docs").EnumerateArray())
             {
-                string title = book.GetProperty("title").GetString() ?? "Der Title existiert nicht!";
-                string year = book.TryGetProperty("first_publish_year", out var yearProp) ? yearProp.GetInt32().ToString() : "Veröffentlichungsjahr ist unbekannt";
-                string author = book.TryGetProperty("author_name", out var authorProp) ? string.Join(", ", authorProp.EnumerateArray().Select(a => a.GetString())) : "Der Author ist Unbekannt!";
-                return $"Buch: \nTitel: {title} \nErscheinungsjahr: {year} \nAutor: {author}";
+                string title = book.GetProperty("title").GetString() ?? "Unbekannt";
+                string year = book.TryGetProperty("first_publish_year", out var yearProp) ? yearProp.GetInt32().ToString() : "Unbekannt";
+                string author = book.TryGetProperty("author_name", out var authorProp) ? string.Join(", ", authorProp.EnumerateArray().Select(a => a.GetString())) : "Unbekannt";
+                var languages = book.TryGetProperty("language", out var langProp) ? langProp.EnumerateArray().Select(l => l.GetString()).ToList() : new List<string>();
+
+                // Filter: Originalversion und deutsche Version
+                if (languages.Contains("eng") || languages.Contains("ger"))
+                {
+                    // Gruppiere nur Serien und wichtige Werke
+                    if (book.TryGetProperty("series", out var seriesProp) || book.TryGetProperty("works", out var worksProp))
+                    {
+                        books.Add((title, author, year));
+                    }
+                    else if (books.All(b => b.Title != title)) // Doppelte vermeiden
+                    {
+                        books.Add((title, author, year));
+                    }
+                }
             }
 
-            return $"Keine Bücher mit dem Titel '{query}' gefunden";
+            // Sortiere nach Jahr, um die Originalversion zuerst zu zeigen
+            return books.OrderBy(b => b.Year).ToList();
         }
 
         // API abfrage bei OMDB
-        private async Task<List<string>> SearchOMDB(string query)
+        private async Task<List<(string Title, string Year)>> SearchOMDB(string query)
         {
             using var client = new HttpClient();
             string apiKey = "fc4dd297";
@@ -124,19 +157,15 @@ namespace API_Project
             var json = await response.Content.ReadAsStringAsync();
             var data = JsonDocument.Parse(json);
 
-            var results = new List<string>();
+            var results = new List<(string Title, string Year)>();
             if (data.RootElement.TryGetProperty("Search", out var movies))
             {
                 foreach (var movie in movies.EnumerateArray())
                 {
-                    string title = movie.GetProperty("Title").GetString() ?? "Der Title existiert nicht!";
-                    string year = movie.GetProperty("Year").GetString() ?? "Veröffentlichungsjahr ist unbekannt";
-                    results.Add($"Film:\nTitel: {title}\nErscheinungsjahr: {year}");
+                    string title = movie.GetProperty("Title").GetString() ?? "Unbekannt";
+                    string year = movie.GetProperty("Year").GetString() ?? "Unbekannt";
+                    results.Add((title, year));
                 }
-            }
-            else
-            {
-                results.Add("Keine Filme gefunden.");
             }
 
             return results;
@@ -160,7 +189,7 @@ namespace API_Project
         }
 
         // API abfrage bei IGDB
-        private async Task<List<string>> SearchIGDB(string query)
+        private async Task<List<(string Title, string Developer, string Year)>> SearchIGDB(string query)
         {
             string accessToken = await GetIGDBAccessToken();
 
@@ -182,21 +211,38 @@ namespace API_Project
             var json = await response.Content.ReadAsStringAsync();
             var data = JsonDocument.Parse(json);
 
-            var results = new List<string>();
+            var results = new List<(string Title, string Developer, string Year)>();
+
             foreach (var game in data.RootElement.EnumerateArray())
             {
                 string title = game.GetProperty("name").GetString() ?? "Unbekannt";
                 string year = game.TryGetProperty("first_release_date", out var yearProp) ? DateTimeOffset.FromUnixTimeSeconds(yearProp.GetInt64()).Year.ToString() : "Unbekannt";
-                results.Add($"Spiel:\nTitel: {title}\nErscheinungsjahr: {year}");
+                string developer = game.TryGetProperty("involved_companies", out var companies) ? string.Join(", ", companies.EnumerateArray().Select(c => c.GetProperty("company").GetProperty("name").GetString())) : "Unbekannt";
+                results.Add((title, developer, year));
             }
 
             return results;
         }
 
-        private void SaveResultsToCsv(List<string> results)
+        private void SaveResultsToCsv(
+            List<(string Title, string Author, string Year)> books,
+            List<(string Title, string Year)> movies,
+            List<(string Title, string Developer, string Year)> games)
         {
             string filePath = "results.csv";
-            File.WriteAllLines(filePath, results);
+            var lines = new List<string> { "Kategorie,Titel,Autor/Entwickler,Erscheinungsjahr" };
+
+            // Bücher in CSV-Format umwandeln
+            lines.AddRange(books.Select(b => $"Buch,{b.Title},{b.Author},{b.Year}"));
+
+            // Filme in CSV-Format umwandeln
+            lines.AddRange(movies.Select(m => $"Film,{m.Title},,{m.Year}"));
+
+            // Spiele in CSV-Format umwandeln
+            lines.AddRange(games.Select(g => $"Spiel,{g.Title},{g.Developer},{g.Year}"));
+
+            // CSV-Datei schreiben
+            File.WriteAllLines(filePath, lines);
         }
     }
 }
