@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\",
+  "WorkspaceRootPath": "D:\\Workspace\\C#\\Projekt\\Media_Hive\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44E7748A-9D54-4276-AEF6-B2304894DA1C}|API Project\\API Project.csproj|c:\\users\\olafh\\documents\\github\\media_hive\\api project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44E7748A-9D54-4276-AEF6-B2304894DA1C}|API Project\\API Project.csproj|solutionrelative:api project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44E7748A-9D54-4276-AEF6-B2304894DA1C}|API Project\\API Project.csproj|d:\\workspace\\c#\\projekt\\media_hive\\api project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44E7748A-9D54-4276-AEF6-B2304894DA1C}|API Project\\API Project.csproj|solutionrelative:api project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44E7748A-9D54-4276-AEF6-B2304894DA1C}|API Project\\API Project.csproj|c:\\users\\olafh\\documents\\github\\media_hive\\api project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{44E7748A-9D54-4276-AEF6-B2304894DA1C}|API Project\\API Project.csproj|solutionrelative:api project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{44E7748A-9D54-4276-AEF6-B2304894DA1C}|API Project\\API Project.csproj|d:\\workspace\\c#\\projekt\\media_hive\\api project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E7748A-9D54-4276-AEF6-B2304894DA1C}|API Project\\API Project.csproj|solutionrelative:api project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Workspace\\C#\\Projekt\\Media_Hive\\API Project\\MainWindow.xaml",
               "RelativeDocumentMoniker": "API Project\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\MainWindow.xaml",
+              "ToolTip": "D:\\Workspace\\C#\\Projekt\\Media_Hive\\API Project\\MainWindow.xaml",
               "RelativeToolTip": "API Project\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-15T21:32:29.724Z",
@@ -34,16 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\Projekt\\Media_Hive\\API Project\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "API Project\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\OlafH\\Documents\\GitHub\\Media_Hive\\API Project\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Workspace\\C#\\Projekt\\Media_Hive\\API Project\\MainWindow.xaml.cs",
               "RelativeToolTip": "API Project\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAmwG0AAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwHIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:32:29.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T21:32:29.202Z"
             }
           ]
         }
