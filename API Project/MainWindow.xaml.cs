@@ -1,17 +1,13 @@
-﻿using System.IO;
+﻿using System.Globalization;
+using System.IO;
 using System.Net.Http;
-using System.Text;
 using System.Text.Json;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Newtonsoft.Json;
+using System.Windows.Media.Animation;
+using System.Data.SQLite;
+using CsvHelper;
+using System.Dynamic;
+using CsvHelper.Configuration;
 
 namespace API_Project
 {
@@ -243,6 +239,121 @@ namespace API_Project
 
             // CSV-Datei schreiben
             File.WriteAllLines(filePath, lines);
+        }
+
+        private static void ReadCsvFiles()
+        {
+            string databaseFile = "database.db";
+            if (!File.Exists(databaseFile))
+            {
+                SQLiteConnection.CreateFile(databaseFile);
+            }
+
+            var connection = new SQLiteConnection($"Data Source={databaseFile};Version=3;");
+            connection.Open();
+            CreateTables(connection);
+            ImportCSV("../../../csv/games.csv", "Games", connection);
+            ImportCSV("../../../csv/books.csv", "Books", connection);
+            ImportCSV("../../../csv/movies.csv", "Movies", connection);
+        }
+
+        static void CreateTables(SQLiteConnection connection)
+        {
+            string games = @"CREATE TABLE IF NOT EXISTS Games (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            title TEXT,
+            genres TEXT,
+            release_date TEXT,
+            platforms TEXT,
+            involved_companies TEXT,
+            rating TEXT,
+            tag TEXT);";
+
+            string books = @"CREATE TABLE IF NOT EXISTS Books (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            english_title TEXT,
+            german_title TEXT,
+            authors TEXT,
+            release_date TEXT,
+            rating TEXT,
+            number_of_reviews INTEGER,
+            genre TEXT,
+            subjects TEXT,
+            tag TEXT,
+            isbn TEXT,
+            cover_link TEXT,
+            cover_id TEXT,
+            shop_link TEXT);";
+
+            string movies = @"CREATE TABLE IF NOT EXISTS Movies (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            english_title TEXT,
+            german_title TEXT,
+            year INTEGER,
+            rated TEXT,
+            released TEXT,
+            genre TEXT,
+            director TEXT,
+            writer TEXT,
+            type TEXT,
+            imdb_rating REAL,
+            tag TEXT,
+            website TEXT);";
+
+            var command = new SQLiteCommand(connection);
+            command.CommandText = games;
+            command.ExecuteNonQuery();
+            command.CommandText = books;
+            command.ExecuteNonQuery();
+            command.CommandText = movies;
+            command.ExecuteNonQuery();
+        }
+
+        static void ImportCSV(string filePath, string tableName, SQLiteConnection connection)
+        {
+            if (!File.Exists(filePath))
+            {
+                Console.WriteLine($"Datei {filePath} nicht gefunden.");
+                return;
+            }
+
+            try
+            {
+                using var reader = new StreamReader(filePath);
+                var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+                {
+                    Delimiter = filePath.Contains("books") ? ";" : ",",
+                    MissingFieldFound = null, 
+                };
+
+                using var csv = new CsvReader(reader, config);
+                var records = csv.GetRecords<dynamic>().ToList();
+                Console.WriteLine($"Anzahl der Datensätze: {records.Count}");
+
+                foreach (var record in records)
+                {
+                    var dict = (IDictionary<string, object>)record;
+                    var columns = string.Join(",", dict.Keys);
+                    var parameterNames = string.Join(",", dict.Keys.Select((k, i) => $"@param{i}"));
+                    var values = dict.Values.Select((v, i) => new SQLiteParameter($"@param{i}", v ?? DBNull.Value)).ToArray(); 
+
+                    string query = $"INSERT INTO {tableName} ({columns}) VALUES ({parameterNames});";
+
+                    using var command = new SQLiteCommand(query, connection);
+                    command.Parameters.AddRange(values);
+                    command.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error importing CSV-File: {ex.Message}");
+            }
+        }
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ReadCsvFiles();
         }
     }
 }
