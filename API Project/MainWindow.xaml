@@ -9,9 +9,9 @@
     <Grid>
         <TextBox x:Name="SearchBox" Width="300" Height="25" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Left" />
         <Button Content="Suchen" Width="100" Height="25" Margin="320,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="SearchButton_Click" />
-        
+
         <ProgressBar x:Name="LoadingBar" Height="20" Margin="10,40,10,0" VerticalAlignment="Top" Visibility="Hidden" />
-        
+
         <!-- Anzeige der Daten -->
         <DataGrid x:Name="ResultsDataGrid" Margin="10,70,10,10" AutoGenerateColumns="False" CanUserAddRows="False">
             <DataGrid.Columns>
@@ -20,5 +20,6 @@
                 <DataGridTextColumn Header="Spiele" Binding="{Binding Game}" Width="*" />
             </DataGrid.Columns>
         </DataGrid>
+        <Button Content="ReadCsv" HorizontalAlignment="Left" Height="25" Margin="544,10,0,0" VerticalAlignment="Top" Width="64" Click="Button_Click"/>
     </Grid>
 </Window>
