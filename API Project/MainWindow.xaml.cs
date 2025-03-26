@@ -249,7 +249,7 @@ namespace API_Project
                 SQLiteConnection.CreateFile(databaseFile);
             }
 
-            var connection = new SQLiteConnection($"Data Source={databaseFile};Version=3;");
+            using var connection = new SQLiteConnection($"Data Source={databaseFile};Version=3;");
             connection.Open();
             CreateTables(connection);
             ImportCSV("../../../csv/games.csv", "Games", connection);
@@ -259,48 +259,69 @@ namespace API_Project
 
         static void CreateTables(SQLiteConnection connection)
         {
-            string games = @"CREATE TABLE IF NOT EXISTS Games (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            title TEXT,
-            genres TEXT,
-            release_date TEXT,
-            platforms TEXT,
-            involved_companies TEXT,
-            rating TEXT,
-            tag TEXT);";
+            string dropTables = @"
+                                DROP TABLE IF EXISTS Games;
+                                DROP TABLE IF EXISTS Books;
+                                DROP TABLE IF EXISTS Movies;
+                                DROP TABLE IF EXISTS Tags;";
 
-            string books = @"CREATE TABLE IF NOT EXISTS Books (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            english_title TEXT,
-            german_title TEXT,
-            authors TEXT,
-            release_date TEXT,
-            rating TEXT,
-            number_of_reviews INTEGER,
-            genre TEXT,
-            subjects TEXT,
-            tag TEXT,
-            isbn TEXT,
-            cover_link TEXT,
-            cover_id TEXT,
-            shop_link TEXT);";
+            using var dropCommand = new SQLiteCommand(dropTables, connection);
+            dropCommand.ExecuteNonQuery();
 
-            string movies = @"CREATE TABLE IF NOT EXISTS Movies (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            english_title TEXT,
-            german_title TEXT,
-            year INTEGER,
-            rated TEXT,
-            released TEXT,
-            genre TEXT,
-            director TEXT,
-            writer TEXT,
-            type TEXT,
-            imdb_rating REAL,
-            tag TEXT,
-            website TEXT);";
+            string tags = @"CREATE TABLE Tags (
+                            tag_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            tag TEXT UNIQUE);";
 
-            var command = new SQLiteCommand(connection);
+            string games = @"CREATE TABLE Games (
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            title TEXT,
+                            genres TEXT,
+                            release_date TEXT,
+                            platforms TEXT,
+                            involved_companies TEXT,
+                            rating TEXT,
+                            tag_id INTEGER,
+                            tag TEXT,
+                            FOREIGN KEY(tag_id) REFERENCES Tags(tag_id));";
+
+            string books = @"CREATE TABLE Books (
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            english_title TEXT,
+                            german_title TEXT,
+                            authors TEXT,
+                            release_date TEXT,
+                            rating TEXT,
+                            number_of_reviews INTEGER,
+                            genre TEXT,
+                            subjects TEXT,
+                            tag_id INTEGER,
+                            isbn TEXT,
+                            cover_link TEXT,
+                            cover_id TEXT,
+                            shop_link TEXT,
+                            tag TEXT,
+                            FOREIGN KEY(tag_id) REFERENCES Tags(tag_id));";
+
+            string movies = @"CREATE TABLE Movies (
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            english_title TEXT,
+                            german_title TEXT,
+                            year INTEGER,
+                            rated TEXT,
+                            released TEXT,
+                            genre TEXT,
+                            director TEXT,
+                            writer TEXT,
+                            type TEXT,
+                            imdb_rating REAL,
+                            tag_id INTEGER,
+                            website TEXT,
+                            tag TEXT,
+                            FOREIGN KEY(tag_id) REFERENCES Tags(tag_id));";
+
+            using var command = new SQLiteCommand(connection);
+            command.CommandText = tags;
+            command.ExecuteNonQuery();
             command.CommandText = games;
             command.ExecuteNonQuery();
             command.CommandText = books;
@@ -313,7 +334,7 @@ namespace API_Project
         {
             if (!File.Exists(filePath))
             {
-                Console.WriteLine($"Datei {filePath} nicht gefunden.");
+                MessageBox.Show($"Datei {filePath} nicht gefunden.");
                 return;
             }
 
@@ -322,33 +343,58 @@ namespace API_Project
                 using var reader = new StreamReader(filePath);
                 var config = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
-                    Delimiter = filePath.Contains("books") ? ";" : ",",
-                    MissingFieldFound = null, 
+                    Delimiter = (tableName == "Games") ? "," : ";",     //löschen wenn die csv semikolon nutzt
+                    MissingFieldFound = null,
                 };
 
                 using var csv = new CsvReader(reader, config);
                 var records = csv.GetRecords<dynamic>().ToList();
-                Console.WriteLine($"Anzahl der Datensätze: {records.Count}");
 
                 foreach (var record in records)
                 {
                     var dict = (IDictionary<string, object>)record;
+                    string tag = dict.ContainsKey("tag") ? dict["tag"]?.ToString() ?? "" : "";
+                    int tagId = GetOrCreateTag(tag, connection);
+
+                    dict["tag_id"] = tagId;
+                    dict.Remove("tag");
+
                     var columns = string.Join(",", dict.Keys);
                     var parameterNames = string.Join(",", dict.Keys.Select((k, i) => $"@param{i}"));
-                    var values = dict.Values.Select((v, i) => new SQLiteParameter($"@param{i}", v ?? DBNull.Value)).ToArray(); 
+                    var values = dict.Values.Select((v, i) => new SQLiteParameter($"@param{i}", v ?? DBNull.Value)).ToArray();
 
                     string query = $"INSERT INTO {tableName} ({columns}) VALUES ({parameterNames});";
 
                     using var command = new SQLiteCommand(query, connection);
                     command.Parameters.AddRange(values);
                     command.ExecuteNonQuery();
+
                 }
             }
-            catch (Exception ex)
+            catch (SQLiteException ex)
             {
-                Console.WriteLine($"Error importing CSV-File: {ex.Message}");
+                MessageBox.Show($"Error importing CSV-File: {ex.Message}");
             }
         }
+
+        static int GetOrCreateTag(string tag, SQLiteConnection connection)
+        {
+            if (string.IsNullOrWhiteSpace(tag))
+            {
+                tag = "Sonstige"; 
+            }
+
+            using var checkCmd = new SQLiteCommand("SELECT tag_id FROM Tags WHERE tag = @tag", connection);
+            checkCmd.Parameters.AddWithValue("@tag", tag);
+            var existingId = checkCmd.ExecuteScalar();
+
+            if (existingId != null) return Convert.ToInt32(existingId);
+
+            using var insertCmd = new SQLiteCommand("INSERT INTO Tags (tag) VALUES (@tag); SELECT last_insert_rowid();", connection);
+            insertCmd.Parameters.AddWithValue("@tag", tag);
+            return Convert.ToInt32(insertCmd.ExecuteScalar());
+        }
+
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
