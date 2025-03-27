@@ -1,0 +1,102 @@
+﻿<Window x:Class="API_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="Media Hive" Height="800" Width="1200" Background="#fff49b">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="20">
+
+            <!-- 0: Suchleiste + Button -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                <TextBox x:Name="SearchBox" Width="300" Height="30" Margin="5" />
+                <Button Content="Suchen" Width="100" Height="30" Margin="5" Click="SearchButton_Click"/>
+                <Button Content="Franchises anzeigen" Height="30" Click="ShowFranchiseList_Click" Margin="10,5"/>
+            </StackPanel>
+
+            <!-- 1+2: Titel + Beschreibung + Diagramm -->
+            <Grid Margin="0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Titel und Beschreibung -->
+                <StackPanel Grid.Column="0">
+                    <TextBlock x:Name="TagTitle" FontSize="26" FontWeight="Bold" Margin="0,10,0,0"/>
+                    <TextBlock x:Name="TagDescription" FontSize="14" TextWrapping="Wrap"/>
+                </StackPanel>
+
+                <!-- Diagramm rechts -->
+                <lvc:PieChart x:Name="PieChart" Grid.Column="1" Width="300" Height="250" Margin="20"/>
+            </Grid>
+
+            <!-- 3: Zeitachse mit Legende -->
+            <GroupBox Grid.Row="2" Header="Veröffentlichungen auf Zeitachse" Margin="0,10" HorizontalAlignment="Center" Width="1060">
+                <StackPanel>
+                    <ScrollViewer x:Name="TimelineScrollViewer" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                        <Canvas x:Name="TimelineCanvas" Height="120" Background="#f4f4f4" />
+                    </ScrollViewer>
+
+                    <!-- Legende -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                        <Rectangle Width="12" Height="12" Fill="Blue" Margin="5"/>
+                        <TextBlock Text="Buch" VerticalAlignment="Center" Margin="5,0"/>
+                        <Rectangle Width="12" Height="12" Fill="Red" Margin="5"/>
+                        <TextBlock Text="Film" VerticalAlignment="Center" Margin="5,0"/>
+                        <Rectangle Width="12" Height="12" Fill="Green" Margin="5"/>
+                        <TextBlock Text="Spiel" VerticalAlignment="Center" Margin="5,0"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- 4: Bücher -->
+            <GroupBox Header="Bücher" Margin="0,10">
+                <DataGrid x:Name="BooksTable" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Original Titel" Binding="{Binding english_title}" Width="*"/>
+                        <DataGridTextColumn Header="Deutscher Titel" Binding="{Binding german_title}" Width="*"/>
+                        <DataGridTextColumn Header="Autor(en)" Binding="{Binding authors}" Width="*"/>
+                        <DataGridTextColumn Header="Veröffentlichung" Binding="{Binding release_date}" Width="*"/>
+                        <DataGridTextColumn Header="Bewertung" Binding="{Binding rating}" Width="*"/>
+                        <DataGridTextColumn Header="Anz. Bewertungen" Binding="{Binding number_of_reviews}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </GroupBox>
+
+            <!-- 5: Filme und Serien -->
+            <GroupBox Header="Filme und Serien" Margin="0,10">
+                <DataGrid x:Name="MoviesTable" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Original Titel" Binding="{Binding english_title}" Width="*"/>
+                        <DataGridTextColumn Header="Deutscher Titel" Binding="{Binding german_title}" Width="*"/>
+                        <DataGridTextColumn Header="FSK" Binding="{Binding rated}" Width="*"/>
+                        <DataGridTextColumn Header="Veröffentlichung" Binding="{Binding released}" Width="*"/>
+                        <DataGridTextColumn Header="Genre" Binding="{Binding genre}" Width="*"/>
+                        <DataGridTextColumn Header="Regisseur" Binding="{Binding director}" Width="*"/>
+                        <DataGridTextColumn Header="Autor" Binding="{Binding writer}" Width="*"/>
+                        <DataGridTextColumn Header="IMDB" Binding="{Binding imdb_rating}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </GroupBox>
+
+            <!-- 6: Spiele -->
+            <GroupBox Header="Spiele" Margin="0,10">
+                <DataGrid x:Name="GamesTable" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Titel" Binding="{Binding title}" Width="*"/>
+                        <DataGridTextColumn Header="Mitwirkende" Binding="{Binding involved_companies}" Width="*"/>
+                        <DataGridTextColumn Header="Veröffentlichung" Binding="{Binding release_date}" Width="*"/>
+                        <DataGridTextColumn Header="Genre" Binding="{Binding genres}" Width="*"/>
+                        <DataGridTextColumn Header="Plattformen" Binding="{Binding platforms}" Width="*"/>
+                        <DataGridTextColumn Header="Bewertung" Binding="{Binding rating}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </GroupBox>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>
