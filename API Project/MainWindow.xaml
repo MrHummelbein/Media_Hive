@@ -12,7 +12,7 @@
 
             <!-- 0: Suchleiste + Button -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
-                <TextBox x:Name="SearchBox" Width="300" Height="30" Margin="5" />
+                <TextBox x:Name="SearchBox" Width="300" Height="30" Margin="5" KeyDown="SearchBox_KeyDown" />
                 <Button Content="Suchen" Width="100" Height="30" Margin="5" Click="SearchButton_Click"/>
                 <Button Content="Franchises anzeigen" Height="30" Click="ShowFranchiseList_Click" Margin="10,5"/>
             </StackPanel>

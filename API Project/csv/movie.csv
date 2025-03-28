@@ -1,131 +1,138 @@
-﻿english_title;german_title;rated;released;genre;director;writer;type;imdb_rating;tag
-The Lord of the Rings: The Fellowship of the Ring;Der Herr der Ringe: Die Gefährten;PG-13;19-Dec-01;Adventure, Drama, Fantasy;Peter Jackson;J.R.R. Tolkien, Fran Walsh, Philippa Boyens;movie;8.9;Der Herr der Ringe / The Lord of the Rings
-The Lord of the Rings: The Two Towers;Der Herr der Ringe: Die zwei Türme;PG-13;18-Dec-02;Adventure, Drama, Fantasy;Peter Jackson;J.R.R. Tolkien, Fran Walsh, Philippa Boyens;movie;8.8;Der Herr der Ringe / The Lord of the Rings
-The Lord of the Rings: The Return of the King;Der Herr der Ringe: Die Rückkehr des Königs;PG-13;17-Dec-03;Adventure, Drama, Fantasy;Peter Jackson;J.R.R. Tolkien, Fran Walsh, Philippa Boyens;movie;9.0;Der Herr der Ringe / The Lord of the Rings
-Harry Potter and the Sorcerer's Stone;Harry Potter und der Stein der Weisen;PG;16-Nov-01;Adventure, Family, Fantasy;Chris Columbus;J.K. Rowling, Steve Kloves;movie;7.7;Harry Potter
-Harry Potter and the Chamber of Secrets;Harry Potter und die Kammer des Schreckens;PG;15-Nov-02;Adventure, Family, Fantasy;Chris Columbus;J.K. Rowling, Steve Kloves;movie;7.4;Harry Potter
-Harry Potter and the Prisoner of Azkaban;Harry Potter und der Gefangene von Askaban;PG;04-Jun-04;Adventure, Family, Fantasy;Alfonso Cuarón;J.K. Rowling, Steve Kloves;movie;7.9;Harry Potter
-Harry Potter and the Goblet of Fire;Harry Potter und der Feuerkelch;PG-13;18-Nov-05;Adventure, Family, Fantasy;Mike Newell;Steve Kloves, J.K. Rowling;movie;7.7;Harry Potter
-Harry Potter and the Order of the Phoenix;Harry Potter und der Orden des Ph�nix;PG-13;11-Jul-07;Action, Adventure, Family;David Yates;Michael Goldenberg, J.K. Rowling;movie;7.5;Harry Potter
-Harry Potter and the Half-Blood Prince;Harry Potter und der Halbblutprinz;PG;15-Jul-09;Action, Adventure, Family;David Yates;Steve Kloves, J.K. Rowling;movie;7.6;Harry Potter
-Harry Potter and the Deathly Hallows: Part 1;Harry Potter und die Heiligt�mer des Todes: Teil 1;PG-13;19-Nov-10;Adventure, Family, Fantasy;David Yates;Steve Kloves, J.K. Rowling;movie;7.7;Harry Potter
-Harry Potter and the Deathly Hallows: Part 2;Harry Potter und die Heiligt�mer des Todes: Teil 2;PG-13;15-Jul-11;Adventure, Family, Fantasy;David Yates;Steve Kloves, J.K. Rowling;movie;8.1;Harry Potter
-The Hobbit: An Unexpected Journey;Der Hobbit: Eine unerwartete Reise;PG-13;14-Dec-12;Adventure, Fantasy;Peter Jackson;Fran Walsh, Philippa Boyens, Peter Jackson;movie;7.8;Der Hobbit / The Hobbit
-The Hobbit: The Desolation of Smaug;Der Hobbit: Smaugs Einöde;PG-13;13-Dec-13;Adventure, Fantasy;Peter Jackson;Fran Walsh, Philippa Boyens, Peter Jackson;movie;7.8;Der Hobbit / The Hobbit
-The Hobbit: The Battle of the Five Armies;Der Hobbit: Die Schlacht der fünf Heere;R;17-Dec-14;Adventure, Fantasy;Peter Jackson;Fran Walsh, Philippa Boyens, Peter Jackson;movie;7.4;Der Hobbit / The Hobbit
-Jurassic Park;Jurassic Park;PG-13;11-Jun-93;Action, Adventure, Sci-Fi;Steven Spielberg;Michael Crichton, David Koepp;movie;8.2;Jurassic Park / Jurassic World
-The Lost World: Jurassic Park;Vergessene Welt: Jurassic Park;PG-13;22-May-97;Action, Adventure, Sci-Fi;Steven Spielberg;Michael Crichton, David Koepp;movie;6.6;Jurassic Park / Jurassic World
-Jurassic Park III;Jurassic Park III;PG-13;18-Jul-01;Action, Adventure, Sci-Fi;Joe Johnston;Michael Crichton, Peter Buchman, Alexander Payne;movie;5.9;Jurassic Park / Jurassic World
-Jurassic World;Jurassic World;PG-13;12-Jun-15;Action, Adventure, Sci-Fi;Colin Trevorrow;Rick Jaffa, Amanda Silver, Colin Trevorrow;movie;6.9;Jurassic Park / Jurassic World
-Jurassic World: Fallen Kingdom;Jurassic World: Das gefallene Königreich;PG-13;22-Jun-18;Action, Adventure, Sci-Fi;J.A. Bayona;Derek Connolly, Colin Trevorrow, Michael Crichton;movie;6.1;Jurassic Park / Jurassic World
-Jurassic World Dominion;Jurassic World: Ein neues Zeitalter;PG-13;10-Jun-22;Action, Adventure, Sci-Fi;Colin Trevorrow;Emily Carmichael, Colin Trevorrow, Derek Connolly;movie;5.6;Jurassic Park / Jurassic World
-Pirates of the Caribbean: The Curse of the Black Pearl;Fluch der Karibik;PG-13;09-Jul-03;Action, Adventure, Fantasy;Gore Verbinski;Ted Elliott, Terry Rossio, Stuart Beattie;movie;8.1;Fluch der Karibik / Pirates of the Caribbean
-Pirates of the Caribbean: Dead Man's Chest;Pirates of the Caribbean – Fluch der Karibik 2;PG-13;07-Jul-06;Action, Adventure, Fantasy;Gore Verbinski;Ted Elliott, Terry Rossio, Stuart Beattie;movie;7.4;Fluch der Karibik / Pirates of the Caribbean
-Pirates of the Caribbean: At World's End;Pirates of the Caribbean – Am Ende der Welt;PG-13;25-May-07;Action, Adventure, Fantasy;Gore Verbinski;Ted Elliott, Terry Rossio, Stuart Beattie;movie;7.1;Fluch der Karibik / Pirates of the Caribbean
-Pirates of the Caribbean: On Stranger Tides;Pirates of the Caribbean – Fremde Gezeiten;PG-13;20-May-11;Action, Adventure, Fantasy;Rob Marshall;Ted Elliott, Terry Rossio, Stuart Beattie;movie;6.6;Fluch der Karibik / Pirates of the Caribbean
-Pirates of the Caribbean: Dead Men Tell No Tales;Pirates of the Caribbean – Salazars Rache;PG-13;26-May-17;Action, Adventure, Fantasy;Joachim Rønning, Espen Sandberg;Jeff Nathanson, Terry Rossio, Ted Elliott;movie;6.5;Fluch der Karibik / Pirates of the Caribbean
-Star Wars: Episode I – The Phantom Menace;Star Wars: Episode I – Die dunkle Bedrohung;PG;19-May-99;Action, Adventure, Fantasy;George Lucas;George Lucas;movie;6.5;Star Wars
-Star Wars: Episode II – Attack of the Clones;Star Wars: Episode II – Angriff der Klonkrieger;PG;16-May-02;Action, Adventure, Fantasy;George Lucas;George Lucas, Jonathan Hales;movie;6.6;Star Wars
-Star Wars: Episode III – Revenge of the Sith;Star Wars: Episode III – Die Rache der Sith;PG-13;19-May-05;Action, Adventure, Fantasy;George Lucas;George Lucas;movie;7.6;Star Wars
-Star Wars: Episode IV – A New Hope;Star Wars: Episode IV – Eine neue Hoffnung;PG;25-May-77;Action, Adventure, Fantasy;George Lucas;George Lucas;movie;8.6;Star Wars
-Star Wars: Episode V – The Empire Strikes Back;Star Wars: Episode V – Das Imperium schlägt zurück;PG;18-Jun-80;Action, Adventure, Fantasy;Irvin Kershner;Leigh Brackett, Lawrence Kasdan, George Lucas;movie;8.7;Star Wars
-Star Wars: Episode VI – Return of the Jedi;Star Wars: Episode VI – Die Rückkehr der Jedi-Ritter;PG;25-May-83;Action, Adventure, Fantasy;Richard Marquand;Lawrence Kasdan, George Lucas;movie;8.3;Star Wars
-Star Wars: Episode VII – The Force Awakens;Star Wars: Episode VII – Das Erwachen der Macht;PG-13;18-Dec-15;Action, Adventure, Sci-Fi;J.J. Abrams;Lawrence Kasdan, J.J. Abrams, Michael Arndt;movie;7.8;Star Wars
-Star Wars: Episode VIII – The Last Jedi;Star Wars: Episode VIII – Die letzten Jedi;PG-13;15-Dec-17;Action, Adventure, Fantasy;Rian Johnson;Rian Johnson, George Lucas;movie;6.9;Star Wars
-Star Wars: Episode IX – The Rise of Skywalker;Star Wars: Episode IX – Der Aufstieg Skywalkers;PG-13;20-Dec-19;Action, Adventure, Fantasy;J.J. Abrams;Chris Terrio, J.J. Abrams, Derek Connolly;movie;6.4;Star Wars
-Rogue One: A Star Wars Story;Rogue One: A Star Wars Story;PG-13;16-Dec-16;Action, Adventure, Sci-Fi;Gareth Edwards;Chris Weitz, Tony Gilroy, John Knoll;movie;7.8;Star Wars
-Solo: A Star Wars Story;Solo: A Star Wars Story;PG-13;25-May-18;Action, Adventure, Sci-Fi;Ron Howard;Jonathan Kasdan, Lawrence Kasdan, George Lucas;movie;6.9;Star Wars
-Dr. No;James Bond jagt Dr. No;PG;10-Oct-62;Action, Adventure, Thriller;Terence Young;Richard Maibaum, Johanna Harwood, Berkely Mather;movie;7.2;James Bond
-From Russia with Love;Liebesgrüße aus Moskau;PG;27-May-64;Action, Adventure, Thriller;Terence Young;Richard Maibaum, Johanna Harwood, Ian Fleming;movie;7.3;James Bond
-Goldfinger;Goldfinger;Approved;09-Jan-65;Action, Adventure, Thriller;Guy Hamilton;Richard Maibaum, Paul Dehn, Ian Fleming;movie;7.7;James Bond
-Thunderball;Feuerball;Approved;22-Dec-65;Action, Adventure, Thriller;Terence Young;Richard Maibaum, John Hopkins, Jack Whittingham;movie;6.9;James Bond
-You Only Live Twice;Man lebt nur zweimal;PG;13-Jun-67;Action, Adventure, Thriller;Lewis Gilbert;Harold Jack Bloom, Roald Dahl, Ian Fleming;movie;6.8;James Bond
-On Her Majesty's Secret Service;Im Geheimdienst Ihrer Majestät;PG;19-Dec-69;Action, Adventure, Thriller;Peter R. Hunt;Simon Raven, Richard Maibaum, Ian Fleming;movie;6.7;James Bond
-Diamonds Are Forever;Diamantenfieber;PG;17-Dec-71;Action, Adventure, Thriller;Guy Hamilton;Richard Maibaum, Tom Mankiewicz, Ian Fleming;movie;6.5;James Bond
-Live and Let Die;Leben und sterben lassen;PG;27-Jun-73;Action, Adventure, Thriller;Guy Hamilton;Tom Mankiewicz, Ian Fleming;movie;6.7;James Bond
-The Man with the Golden Gun;Der Mann mit dem goldenen Colt;PG;20-Dec-74;Action, Adventure, Thriller;Guy Hamilton;Richard Maibaum, Tom Mankiewicz, Ian Fleming;movie;6.7;James Bond
-The Spy Who Loved Me;Der Spion, der mich liebte;PG;03-Aug-77;Action, Adventure, Thriller;Lewis Gilbert;Christopher Wood, Richard Maibaum, Ian Fleming;movie;7.0;James Bond
-Moonraker;Moonraker – Streng geheim;PG;29-Jun-79;Action, Adventure, Sci-Fi;Lewis Gilbert;Christopher Wood, Ian Fleming, Gerry Anderson;movie;6.2;James Bond
-For Your Eyes Only;In tödlicher Mission;PG;26-Jun-81;Action, Adventure, Thriller;John Glen;Richard Maibaum, Michael G. Wilson, Ian Fleming;movie;6.7;James Bond
-Octopussy;Octopussy;PG;10-Jun-83;Action, Adventure, Thriller;John Glen;George MacDonald Fraser, Richard Maibaum, Michael G. Wilson;movie;6.5;James Bond
-A View to a Kill;Im Angesicht des Todes;PG;24-May-85;Action, Adventure, Thriller;John Glen;Richard Maibaum, Michael G. Wilson, Ian Fleming;movie;6.3;James Bond
-The Living Daylights;Der Hauch des Todes;PG;31-Jul-87;Action, Adventure, Thriller;John Glen;Richard Maibaum, Michael G. Wilson, Ian Fleming;movie;6.7;James Bond
-Licence to Kill;Lizenz zum Töten;PG-13;14-Jul-89;Action, Adventure, Thriller;John Glen;Michael G. Wilson, Richard Maibaum, Ian Fleming;movie;6.7;James Bond
-GoldenEye;GoldenEye;PG-13;17-Nov-95;Action, Adventure, Thriller;Martin Campbell;Ian Fleming, Michael France, Jeffrey Caine;movie;7.2;James Bond
-Tomorrow Never Dies;Der Morgen stirbt nie;PG-13;19-Dec-97;Action, Adventure, Thriller;Roger Spottiswoode;Bruce Feirstein, Ian Fleming;movie;6.5;James Bond
-The World Is Not Enough;Die Welt ist nicht genug;PG-13;19-Nov-99;Action, Adventure, Thriller;Michael Apted;Neal Purvis, Robert Wade, Bruce Feirstein;movie;6.4;James Bond
-Die Another Day;Stirb an einem anderen Tag;PG-13;22-Nov-02;Action, Adventure, Thriller;Lee Tamahori;Ian Fleming, Neal Purvis, Robert Wade;movie;6.1;James Bond
-Casino Royale;Casino Royale;PG-13;17-Nov-06;Action, Adventure, Thriller;Martin Campbell;Neal Purvis, Robert Wade, Paul Haggis;movie;8.0;James Bond
-Quantum of Solace;Ein Quantum Trost;PG-13;14-Nov-08;Action, Adventure, Mystery;Marc Forster;Paul Haggis, Neal Purvis, Robert Wade;movie;6.5;James Bond
-Skyfall;Skyfall;PG-13;09-Nov-12;Action, Adventure, Thriller;Sam Mendes;Neal Purvis, Robert Wade, John Logan;movie;7.8;James Bond
-Spectre;Spectre;PG-13;06-Nov-15;Action, Adventure, Thriller;Sam Mendes;John Logan, Neal Purvis, Robert Wade;movie;6.8;James Bond
-No Time to Die;Keine Zeit zu sterben;PG-13;08-Oct-21;Action, Adventure, Thriller;Cary Joji Fukunaga;Neal Purvis, Robert Wade, Cary Joji Fukunaga;movie;7.3;James Bond
-Transformers (2007);Transformers;N/A;11-Jan-18;N/A;N/A;N/A;movie;N/A;Transformers
-Transformers: Revenge of the Fallen;Transformers – Die Rache;PG-13;24-Jun-09;Action, Adventure, Sci-Fi;Michael Bay;Ehren Kruger, Roberto Orci, Alex Kurtzman;movie;6.0;Transformers
-Transformers: Dark of the Moon;Transformers 3;PG-13;29-Jun-11;Action, Adventure, Sci-Fi;Michael Bay;Ehren Kruger;movie;6.2;Transformers
-Transformers: Age of Extinction;Transformers: Ära des Untergangs;PG-13;27-Jun-14;Action, Adventure, Sci-Fi;Michael Bay;Ehren Kruger;movie;5.6;Transformers
-Transformers: The Last Knight;Transformers: The Last Knight;PG-13;21-Jun-17;Action, Adventure, Sci-Fi;Michael Bay;Art Marcum, Matt Holloway, Ken Nolan;movie;5.2;Transformers
-Bumblebee;Bumblebee;PG-13;21-Dec-18;Action, Adventure, Sci-Fi;Travis Knight;Christina Hodson;movie;6.7;Transformers
-Transformers: Rise of the Beasts;Transformers: Aufstieg der Bestien;PG-13;09-Jun-23;Action, Adventure, Sci-Fi;Steven Caple Jr.;Joby Harold, Darnell Metayer, Josh Peters;movie;6.0;Transformers
-Assassin's Creed;Assassin’s Creed;PG-13;21-Dec-16;Action, Adventure, Sci-Fi;Justin Kurzel;Michael Lesslie, Adam Cooper, Bill Collage;movie;5.6;Assassin’s Creed
-The Fast and the Furious;The Fast and the Furious;PG-13;22-Jun-01;Action, Crime, Thriller;Rob Cohen;Ken Li, Gary Scott Thompson, Erik Bergquist;movie;6.8;Fast & Furious / The Fast and the Furious
-2 Fast 2 Furious;2 Fast 2 Furious;PG-13;06-Jun-03;Action, Crime, Thriller;John Singleton;Gary Scott Thompson, Michael Brandt, Derek Haas;movie;5.9;Fast & Furious / The Fast and the Furious
-The Fast and the Furious: Tokyo Drift;The Fast and the Furious: Tokyo Drift;PG-13;16-Jun-06;Action, Crime, Thriller;Justin Lin;Chris Morgan;movie;6.1;Fast & Furious / The Fast and the Furious
-Fast & Furious;Fast & Furious – Neues Modell. Originalteile.;PG-13;03-Apr-09;Action, Thriller;Justin Lin;Chris Morgan, Gary Scott Thompson;movie;6.5;Fast & Furious / The Fast and the Furious
-Fast Five;Fast & Furious Five;PG-13;29-Apr-11;Action, Crime, Thriller;Justin Lin;Chris Morgan, Gary Scott Thompson;movie;7.3;Fast & Furious / The Fast and the Furious
-Fast & Furious 6;Fast & Furious 6;PG-13;24-May-13;Action, Thriller;Justin Lin;Chris Morgan, Gary Scott Thompson;movie;7.0;Fast & Furious / The Fast and the Furious
-Furious 7;Fast & Furious 7;PG-13;03-Apr-15;Action, Thriller;James Wan;Chris Morgan, Gary Scott Thompson;movie;7.1;Fast & Furious / The Fast and the Furious
-The Fate of the Furious;Fast & Furious 8;PG-13;14-Apr-17;Action, Crime, Thriller;F. Gary Gray;Gary Scott Thompson, Chris Morgan;movie;6.6;Fast & Furious / The Fast and the Furious
-F9: The Fast Saga;Fast & Furious 9;PG-13;25-Jun-21;Action, Crime, Thriller;Justin Lin;Daniel Casey, Justin Lin, Alfredo Botello;movie;5.2;Fast & Furious / The Fast and the Furious
-Fast X;Fast & Furious 10;PG-13;19-May-23;Action, Adventure, Crime;Louis Leterrier;Dan Mazeau, Justin Lin, Zach Dean;movie;5.7;Fast & Furious / The Fast and the Furious
-Fast & Furious Presents: Hobbs & Shaw;Fast & Furious: Hobbs & Shaw;PG-13;02-Aug-19;Action, Adventure, Thriller;David Leitch;Chris Morgan, Drew Pearce, Gary Scott Thompson;movie;6.5;Fast & Furious / The Fast and the Furious
-John Wick;John Wick;R;24-Oct-14;Action, Crime, Thriller;Chad Stahelski;Derek Kolstad;movie;7.4;John Wick
-John Wick: Chapter 2;John Wick: Kapitel 2;R;10-Feb-17;Action, Crime, Thriller;Chad Stahelski;Derek Kolstad;movie;7.4;John Wick
-John Wick: Chapter 3 – Parabellum;John Wick: Kapitel 3;R;17-May-19;Action, Crime, Thriller;Chad Stahelski;Derek Kolstad, Shay Hatten, Chris Collins;movie;7.4;John Wick
-John Wick: Chapter 4;John Wick: Kapitel 4;R;24-Mar-23;Action, Crime, Thriller;Chad Stahelski;Shay Hatten, Michael Finch, Derek Kolstad;movie;7.6;John Wick
-Ballerina;Ballerina;TV-MA;06-Oct-23;Action, Thriller;Chung-Hyun Lee;Chung-Hyun Lee;movie;6.3;John Wick
-The Witcher: Nightmare of the Wolf;The Witcher: Nightmare of the Wolf;TV-MA;23-Aug-21;Animation, Action, Adventure;Kwang Il Han;Beau DeMayo, Andrzej Sapkowski;movie;7.2;The Witcher
-The Witcher;The Witcher;TV-MA;20-Dec-19;Action, Adventure, Drama;Tomek Baginski;Lauren Schmidt Hissrich;series;7.9;The Witcher
-The Witcher: Blood Origin;The Witcher: Blood Origin;TV-MA;25-Dec-22;Action, Adventure, Drama;N/A;Declan De Barra;series;4.9;The Witcher
-Resident Evil (2002);Resident Evil;N/A;28-Jun-21;N/A;N/A;N/A;movie;N/A;Resident Evil
-Resident Evil: Apocalypse;Resident Evil: Apocalypse;R;10-Sept-04;Action, Horror, Sci-Fi;Alexander Witt;Paul W.S. Anderson;movie;6.1;Resident Evil
-Resident Evil: Extinction;Resident Evil: Extinction;R;21-Sept-07;Action, Horror, Sci-Fi;Russell Mulcahy;Paul W.S. Anderson;movie;6.2;Resident Evil
-Resident Evil: Afterlife;Resident Evil: Afterlife;R;10-Sept-10;Action, Horror, Sci-Fi;Paul W.S. Anderson;Paul W.S. Anderson;movie;5.8;Resident Evil
-Resident Evil: Retribution;Resident Evil: Retribution;R;14-Sept-12;Action, Horror, Sci-Fi;Paul W.S. Anderson;Paul W.S. Anderson;movie;5.3;Resident Evil
-Resident Evil: The Final Chapter;Resident Evil: The Final Chapter;R;27-Jan-17;Action, Horror, Sci-Fi;Paul W.S. Anderson;Paul W.S. Anderson;movie;5.5;Resident Evil
-Resident Evil: Welcome to Raccoon City;Resident Evil: Welcome to Raccoon City;R;24-Nov-21;Action, Horror, Sci-Fi;Johannes Roberts;Johannes Roberts;movie;5.2;Resident Evil
-Resident Evil: Infinite Darkness;Resident Evil: Infinite Darkness;TV-MA;08-Jul-21;Animation, Action, Horror;N/A;Hiroyuki Kobayashi;series;5.8;Resident Evil
-Resident Evil;Resident Evil;R;15-Mar-02;Action, Horror, Sci-Fi;Paul W.S. Anderson;Paul W.S. Anderson;movie;6.6;Resident Evil
-The Last of Us;The Last of Us;TV-MA;15-Jan-23;Action, Adventure, Drama;N/A;Craig Mazin, Neil Druckmann;series;8.7;The Last of Us
-Dune (1984);Der Wüstenplanet;N/A;05-Oct-20;Talk-Show;N/A;N/A;movie;N/A;Dune
-Frank Herbert's Dune;Dune – Der Wüstenplanet;N/A;30-Oct-00;Documentary;N/A;N/A;movie;7.5;Dune
-Dune (2021);Dune;N/A;03-Nov-21;N/A;N/A;N/A;movie;N/A;Dune
-Dune: Part Two;Dune: Teil Zwei;PG-13;01-Mar-24;Action, Adventure, Drama;Denis Villeneuve;Denis Villeneuve, Jon Spaihts, Frank Herbert;movie;8.5;Dune
-The Hunger Games;Die Tribute von Panem – The Hunger Games;PG-13;23-Mar-12;Action, Adventure, Sci-Fi;Gary Ross;Gary Ross, Suzanne Collins, Billy Ray;movie;7.2;The Hunger Games
-Catching Fire;Die Tribute von Panem – Catching Fire;N/A;N/A;Short, Drama;Josef Steiff;Josef Steiff;movie;7.1;The Hunger Games
-Mockingjay Part 1;Die Tribute von Panem – Mockingjay Teil 1;N/A;01-Feb-15;Documentary;Jon Mefford;N/A;movie;7.1;The Hunger Games
-Mockingjay Part 2;Die Tribute von Panem – Mockingjay Teil 2;N/A;22-Mar-16;Documentary;Jon Mefford;N/A;movie;7.8;The Hunger Games
-The Ballad of Songbirds and Snakes;Die Tribute von Panem – The Ballad of Songbirds and Snakes;N/A;08-Oct-21;Short, Romance;Amber Sweet Sterner;Suzanne Collins, Jackson Trent;movie;N/A;The Hunger Games
-Scream;Scream – Schrei!;R;20-Dec-96;Horror, Mystery;Wes Craven;Kevin Williamson;movie;7.4;Scream
-Scream 2;Scream 2;R;12-Dec-97;Horror, Mystery;Wes Craven;Kevin Williamson;movie;6.3;Scream
-Scream 3;Scream 3;R;04-Feb-00;Horror, Mystery;Wes Craven;Kevin Williamson, Ehren Kruger;movie;5.7;Scream
-Scream 4;Scream 4;R;15-Apr-11;Horror, Mystery;Wes Craven;Kevin Williamson;movie;6.2;Scream
-Scream;Scream;R;20-Dec-96;Horror, Mystery;Wes Craven;Kevin Williamson;movie;7.4;Scream
-Scream VI;Scream VI;R;10-Mar-23;Horror, Mystery, Thriller;Matt Bettinelli-Olpin, Tyler Gillett;James Vanderbilt, Guy Busick, Kevin Williamson;movie;6.4;Scream
-Avatar: The Last Airbender;Avatar – Der Herr der Elemente;TV-Y7-FV;21-Feb-05;Animation, Action, Adventure;N/A;Michael Dante DiMartino, Bryan Konietzko;series;9.3;Avatar – Der Herr der Elemente / Avatar: The Last Airbender
-The Legend of Korra;Die Legende von Korra;TV-PG;14-Apr-12;Animation, Action, Adventure;N/A;Michael Dante DiMartino, Bryan Konietzko;series;8.3;Avatar – Der Herr der Elemente / Avatar: The Last Airbender
-The Last Airbender;Die Legende von Aang;PG;01-Jul-10;Action, Adventure, Family;M. Night Shyamalan;M. Night Shyamalan;movie;4.0;Avatar – Der Herr der Elemente / Avatar: The Last Airbender
-Avatar: The Last Airbender;Avatar – Der Herr der Elemente;TV-Y7-FV;21-Feb-05;Animation, Action, Adventure;N/A;Michael Dante DiMartino, Bryan Konietzko;series;9.3;Avatar – Der Herr der Elemente / Avatar: The Last Airbender
-Saw;Saw;R;29-Oct-04;Horror, Mystery, Thriller;James Wan;Leigh Whannell, James Wan;movie;7.6;Saw / Jigsaw
-Saw II;Saw II;R;28-Oct-05;Horror, Mystery;Darren Lynn Bousman;Leigh Whannell, Darren Lynn Bousman;movie;6.6;Saw / Jigsaw
-Saw III;Saw III;R;27-Oct-06;Horror, Mystery, Thriller;Darren Lynn Bousman;Leigh Whannell, James Wan;movie;6.2;Saw / Jigsaw
-Saw IV;Saw IV;R;26-Oct-07;Horror, Mystery, Thriller;Darren Lynn Bousman;Patrick Melton, Marcus Dunstan, Thomas Fenton;movie;5.9;Saw / Jigsaw
-Saw V;Saw V;R;24-Oct-08;Horror, Thriller;David Hackl;Patrick Melton, Marcus Dunstan;movie;5.8;Saw / Jigsaw
-Saw VI;Saw VI;R;23-Oct-09;Horror, Mystery, Thriller;Kevin Greutert;Patrick Melton, Marcus Dunstan;movie;6.0;Saw / Jigsaw
-Saw 3D;Saw 3D – Vollendung;R;29-Oct-10;Crime, Horror, Mystery;Kevin Greutert;Patrick Melton, Marcus Dunstan;movie;5.5;Saw / Jigsaw
-Jigsaw;Jigsaw;R;27-Oct-17;Horror, Mystery, Thriller;Michael Spierig, Peter Spierig;Josh Stolberg, Pete Goldfinger;movie;5.7;Saw / Jigsaw
-Spiral;Saw: Spiral;R;14-May-21;Horror, Mystery, Thriller;Darren Lynn Bousman;Josh Stolberg, Pete Goldfinger;movie;5.2;Saw / Jigsaw
-Saw X;Saw X;R;29-Sept-23;Horror, Mystery, Thriller;Kevin Greutert;Pete Goldfinger, Josh Stolberg;movie;6.6;Saw / Jigsaw
-Stranger Things Season 1;Stranger Things Staffel 1;N/A;15-Jul-16;Short, Comedy;N/A;N/A;series;N/A;Stranger Things
-Stranger Things Season 2;Stranger Things Staffel 2;N/A;27-Oct-17;Short, Comedy;N/A;N/A;series;N/A;Stranger Things
-Stranger Things Season 3;Stranger Things Staffel 3;N/A;13-Jul-19;Short, Comedy;N/A;N/A;series;N/A;Stranger Things
+english_title;german_title;rated;released;genre;director;writer;type;imdb_rating;tag
+The Lord of the Rings: The Fellowship of the Ring;Der Herr der Ringe: Die Gefährten;PG-13;2001;Adventure, Drama, Fantasy;Peter Jackson;J.R.R. Tolkien, Fran Walsh, Philippa Boyens;movie;8.9;Der Herr der Ringe, Herr der Ringe, The Lord of the Rings, Lord of the Rings
+The Lord of the Rings: The Two Towers;Der Herr der Ringe: Die zwei Türme;PG-13;2002;Adventure, Drama, Fantasy;Peter Jackson;J.R.R. Tolkien, Fran Walsh, Philippa Boyens;movie;8.8;Der Herr der Ringe, Herr der Ringe, The Lord of the Rings, Lord of the Rings
+The Lord of the Rings: The Return of the King;Der Herr der Ringe: Die Rückkehr des Königs;PG-13;2003;Adventure, Drama, Fantasy;Peter Jackson;J.R.R. Tolkien, Fran Walsh, Philippa Boyens;movie;9.0;Der Herr der Ringe, Herr der Ringe, The Lord of the Rings, Lord of the Rings
+The Hobbit: An Unexpected Journey;Der Hobbit: Eine unerwartete Reise;PG-13;2012;Adventure, Fantasy;Peter Jackson;Fran Walsh, Philippa Boyens, Peter Jackson;movie;7.8;Der Hobbit, The Hobbit, Hobbit
+The Hobbit: The Desolation of Smaug;Der Hobbit: Smaugs Einöde;PG-13;2013;Adventure, Fantasy;Peter Jackson;Fran Walsh, Philippa Boyens, Peter Jackson;movie;7.8;Der Hobbit, The Hobbit, Hobbit
+The Hobbit: The Battle of the Five Armies;Der Hobbit: Die Schlacht der Fünf Heere;R;2014;Adventure, Fantasy;Peter Jackson;Fran Walsh, Philippa Boyens, Peter Jackson;movie;7.4;Der Hobbit, The Hobbit, Hobbit
+Star Wars: Episode I – The Phantom Menace;Star Wars: Episode I – Die dunkle Bedrohung;PG;1999;Action, Adventure, Fantasy;George Lucas;George Lucas;movie;6.5;Star Wars, Krieg der Sterne
+Star Wars: Episode II – Attack of the Clones;Star Wars: Episode II – Angriff der Klonkrieger;PG;2002;Action, Adventure, Fantasy;George Lucas;George Lucas, Jonathan Hales;movie;6.6;Star Wars, Krieg der Sterne
+Star Wars: Episode III – Revenge of the Sith;Star Wars: Episode III – Die Rache der Sith;PG-13;2005;Action, Adventure, Fantasy;George Lucas;George Lucas;movie;7.6;Star Wars, Krieg der Sterne
+Star Wars: Episode IV – A New Hope;Star Wars: Episode IV – Eine neue Hoffnung;PG;1977;Action, Adventure, Fantasy;George Lucas;George Lucas;movie;8.6;Star Wars, Krieg der Sterne
+Star Wars: Episode V – The Empire Strikes Back;Star Wars: Episode V – Das Imperium schlägt zurück;PG;1980;Action, Adventure, Fantasy;Irvin Kershner;Leigh Brackett, Lawrence Kasdan, George Lucas;movie;8.7;Star Wars, Krieg der Sterne
+Star Wars: Episode VI – Return of the Jedi;Star Wars: Episode VI – Die Rückkehr der Jedi-Ritter;PG;1983;Action, Adventure, Fantasy;Richard Marquand;Lawrence Kasdan, George Lucas;movie;8.3;Star Wars, Krieg der Sterne
+Star Wars: The Force Awakens;Star Wars: Das Erwachen der Macht;;2016;Comedy;;Conor Lastowka, Michael J. Nelson, Sean Thomason;movie;2.8;Star Wars, Krieg der Sterne
+Star Wars: The Last Jedi;Star Wars: Die letzten Jedi;;2008;Short, Action, Fantasy;;;movie;7.1;Star Wars, Krieg der Sterne
+Star Wars: The Rise of Skywalker;Star Wars: Der Aufstieg Skywalkers;TV-14;2020;Comedy, Sci-Fi;;Bill Corbett, Conor Lastowka, Jason Miller;movie;;Star Wars, Krieg der Sterne
+The Hitchhiker’s Guide to the Galaxy;Per Anhalter durch die Galaxis;PG;2005;Adventure, Comedy, Sci-Fi;Garth Jennings;Douglas Adams, Karey Kirkpatrick;movie;6.7;Per Anhalter durch die Galaxis, The Hitchhiker’s Guide to the Galaxy
+Harry Potter and the Sorcerer's Stone;Harry Potter und der Stein der Weisen;PG;2001;Adventure, Family, Fantasy;Chris Columbus;J.K. Rowling, Steve Kloves;movie;7.7;Harry Potter
+Harry Potter and the Chamber of Secrets;Harry Potter und die Kammer des Schreckens;PG;2002;Adventure, Family, Fantasy;Chris Columbus;J.K. Rowling, Steve Kloves;movie;7.4;Harry Potter
+Harry Potter and the Prisoner of Azkaban;Harry Potter und der Gefangene von Askaban;PG;2004;Adventure, Family, Fantasy;Alfonso Cuarón;J.K. Rowling, Steve Kloves;movie;7.9;Harry Potter
+Harry Potter and the Goblet of Fire;Harry Potter und der Feuerkelch;PG-13;2005;Adventure, Family, Fantasy;Mike Newell;Steve Kloves, J.K. Rowling;movie;7.7;Harry Potter
+Harry Potter and the Order of the Phoenix;Harry Potter und der Orden des Phönix;PG-13;2007;Action, Adventure, Family;David Yates;Michael Goldenberg, J.K. Rowling;movie;7.5;Harry Potter
+Harry Potter and the Half-Blood Prince;Harry Potter und der Halbblutprinz;PG;2009;Action, Adventure, Family;David Yates;Steve Kloves, J.K. Rowling;movie;7.6;Harry Potter
+Harry Potter and the Deathly Hallows: Part 1;Harry Potter und die Heiligtümer des Todes: Teil 1;PG-13;2010;Adventure, Family, Fantasy;David Yates;Steve Kloves, J.K. Rowling;movie;7.7;Harry Potter
+Harry Potter and the Deathly Hallows: Part 2;Harry Potter und die Heiligtümer des Todes: Teil 2;PG-13;2011;Adventure, Family, Fantasy;David Yates;Steve Kloves, J.K. Rowling;movie;8.1;Harry Potter
+Fantastic Beasts and Where to Find Them;Phantastische Tierwesen und wo sie zu finden sind;PG-13;2016;Adventure, Family, Fantasy;David Yates;J.K. Rowling;movie;7.2;Phantastische Tierwesen, Fantastic Beasts
+Fantastic Beasts: The Crimes of Grindelwald;Phantastische Tierwesen: Grindelwalds Verbrechen;PG-13;2018;Adventure, Family, Fantasy;David Yates;J.K. Rowling;movie;6.5;Phantastische Tierwesen, Fantastic Beasts
+Fantastic Beasts: The Secrets of Dumbledore;Phantastische Tierwesen: Dumbledores Geheimnisse;PG-13;2022;Adventure, Fantasy;David Yates;J.K. Rowling, Steve Kloves;movie;6.2;Phantastische Tierwesen, Fantastic Beasts
+The Fast and the Furious;The Fast and the Furious;PG-13;2001;Action, Crime, Thriller;Rob Cohen;Ken Li, Gary Scott Thompson, Erik Bergquist;movie;6.8;Fast and Furious
+2 Fast 2 Furious;2 Fast 2 Furious;PG-13;2003;Action, Crime, Thriller;John Singleton;Gary Scott Thompson, Michael Brandt, Derek Haas;movie;5.9;Fast and Furious
+The Fast and the Furious: Tokyo Drift;The Fast and the Furious: Tokyo Drift;PG-13;2006;Action, Crime, Thriller;Justin Lin;Chris Morgan;movie;6.1;Fast and Furious
+Fast & Furious;Fast & Furious – Neues Modell. Originalteile;PG-13;2009;Action, Thriller;Justin Lin;Chris Morgan, Gary Scott Thompson;movie;6.5;Fast and Furious
+Fast Five;Fast & Furious Five;PG-13;2011;Action, Crime, Thriller;Justin Lin;Chris Morgan, Gary Scott Thompson;movie;7.3;Fast and Furious
+Fast & Furious 6;Fast & Furious 6;PG-13;2013;Action, Thriller;Justin Lin;Chris Morgan, Gary Scott Thompson;movie;7.0;Fast and Furious
+Furious 7;Fast & Furious 7;PG-13;2015;Action, Thriller;James Wan;Chris Morgan, Gary Scott Thompson;movie;7.1;Fast and Furious
+The Fate of the Furious;Fast & Furious 8;PG-13;2017;Action, Crime, Thriller;F. Gary Gray;Gary Scott Thompson, Chris Morgan;movie;6.6;Fast and Furious
+Fast & Furious Presents: Hobbs & Shaw;Fast & Furious: Hobbs & Shaw;PG-13;2019;Action, Adventure, Thriller;David Leitch;Chris Morgan, Drew Pearce, Gary Scott Thompson;movie;6.5;Fast and Furious
+F9;Fast & Furious 9;PG-13;2021;Action, Crime, Thriller;Justin Lin;Daniel Casey, Justin Lin, Alfredo Botello;movie;5.2;Fast and Furious
+Fast X;Fast & Furious 10;PG-13;2023;Action, Adventure, Crime;Louis Leterrier;Dan Mazeau, Justin Lin, Zach Dean;movie;5.7;Fast and Furious
+Dr. No;James Bond jagt Dr. No;PG;1962;Action, Adventure, Thriller;Terence Young;Richard Maibaum, Johanna Harwood, Berkely Mather;movie;7.2;James Bond
+From Russia with Love;Liebesgrüße aus Moskau;PG;1964;Action, Adventure, Thriller;Terence Young;Richard Maibaum, Johanna Harwood, Ian Fleming;movie;7.3;James Bond
+Goldfinger;Goldfinger;Approved;1965;Action, Adventure, Thriller;Guy Hamilton;Richard Maibaum, Paul Dehn, Ian Fleming;movie;7.7;James Bond
+Thunderball;Feuerball;Approved;1965;Action, Adventure, Thriller;Terence Young;Richard Maibaum, John Hopkins, Jack Whittingham;movie;6.9;James Bond
+You Only Live Twice;Man lebt nur zweimal;PG;1967;Action, Adventure, Thriller;Lewis Gilbert;Harold Jack Bloom, Roald Dahl, Ian Fleming;movie;6.8;James Bond
+On Her Majesty’s Secret Service;Im Geheimdienst Ihrer Majestät;PG;1969;Action, Adventure, Thriller;Peter R. Hunt;Simon Raven, Richard Maibaum, Ian Fleming;movie;6.7;James Bond
+Diamonds Are Forever;Diamantenfieber;PG;1971;Action, Adventure, Thriller;Guy Hamilton;Richard Maibaum, Tom Mankiewicz, Ian Fleming;movie;6.5;James Bond
+Live and Let Die;Leben und sterben lassen;PG;1973;Action, Adventure, Thriller;Guy Hamilton;Tom Mankiewicz, Ian Fleming;movie;6.7;James Bond
+The Man with the Golden Gun;Der Mann mit dem goldenen Colt;PG;1974;Action, Adventure, Thriller;Guy Hamilton;Richard Maibaum, Tom Mankiewicz, Ian Fleming;movie;6.7;James Bond
+The Spy Who Loved Me;Der Spion, der mich liebte;PG;1977;Action, Adventure, Thriller;Lewis Gilbert;Christopher Wood, Richard Maibaum, Ian Fleming;movie;7.0;James Bond
+Moonraker;Moonraker – Streng geheim;PG;1979;Action, Adventure, Sci-Fi;Lewis Gilbert;Christopher Wood, Ian Fleming, Gerry Anderson;movie;6.2;James Bond
+For Your Eyes Only;In tödlicher Mission;PG;1981;Action, Adventure, Thriller;John Glen;Richard Maibaum, Michael G. Wilson, Ian Fleming;movie;6.7;James Bond
+Octopussy;Octopussy;PG;1983;Action, Adventure, Thriller;John Glen;George MacDonald Fraser, Richard Maibaum, Michael G. Wilson;movie;6.5;James Bond
+A View to a Kill;Im Angesicht des Todes;PG;1985;Action, Adventure, Thriller;John Glen;Richard Maibaum, Michael G. Wilson, Ian Fleming;movie;6.3;James Bond
+The Living Daylights;Der Hauch des Todes;PG;1987;Action, Adventure, Thriller;John Glen;Richard Maibaum, Michael G. Wilson, Ian Fleming;movie;6.7;James Bond
+Licence to Kill;Lizenz zum Töten;PG-13;1989;Action, Adventure, Thriller;John Glen;Michael G. Wilson, Richard Maibaum, Ian Fleming;movie;6.7;James Bond
+GoldenEye;GoldenEye;PG-13;1995;Action, Adventure, Thriller;Martin Campbell;Ian Fleming, Michael France, Jeffrey Caine;movie;7.2;James Bond
+Tomorrow Never Dies;Der Morgen stirbt nie;PG-13;1997;Action, Adventure, Thriller;Roger Spottiswoode;Bruce Feirstein, Ian Fleming;movie;6.5;James Bond
+The World Is Not Enough;Die Welt ist nicht genug;PG-13;1999;Action, Adventure, Thriller;Michael Apted;Neal Purvis, Robert Wade, Bruce Feirstein;movie;6.4;James Bond
+Die Another Day;Stirb an einem anderen Tag;PG-13;2002;Action, Adventure, Thriller;Lee Tamahori;Ian Fleming, Neal Purvis, Robert Wade;movie;6.1;James Bond
+Casino Royale;Casino Royale;PG-13;2006;Action, Adventure, Thriller;Martin Campbell;Neal Purvis, Robert Wade, Paul Haggis;movie;8.0;James Bond
+Quantum of Solace;Ein Quantum Trost;PG-13;2008;Action, Adventure, Mystery;Marc Forster;Paul Haggis, Neal Purvis, Robert Wade;movie;6.5;James Bond
+Skyfall;Skyfall;PG-13;2012;Action, Adventure, Thriller;Sam Mendes;Neal Purvis, Robert Wade, John Logan;movie;7.8;James Bond
+Spectre;Spectre;PG-13;2015;Action, Adventure, Thriller;Sam Mendes;John Logan, Neal Purvis, Robert Wade;movie;6.8;James Bond
+No Time to Die;Keine Zeit zu sterben;PG-13;2021;Action, Adventure, Thriller;Cary Joji Fukunaga;Neal Purvis, Robert Wade, Cary Joji Fukunaga;movie;7.3;James Bond
+The Hunger Games;Die Tribute von Panem – The Hunger Games;PG-13;2012;Action, Adventure, Sci-Fi;Gary Ross;Gary Ross, Suzanne Collins, Billy Ray;movie;7.2;The Hunger Games, Hunger Games, Die Tribute von Panem, Tribute von Panem
+The Hunger Games: Catching Fire;Die Tribute von Panem – Catching Fire;PG-13;2013;Action, Adventure, Sci-Fi;Francis Lawrence;Simon Beaufoy, Michael Arndt, Suzanne Collins;movie;7.5;The Hunger Games, Hunger Games, Die Tribute von Panem, Tribute von Panem
+The Hunger Games: Mockingjay – Part 1;Die Tribute von Panem – Mockingjay Teil 1;PG-13;2014;Action, Adventure, Sci-Fi;Francis Lawrence;Peter Craig, Danny Strong, Suzanne Collins;movie;6.6;The Hunger Games, Hunger Games, Die Tribute von Panem, Tribute von Panem
+The Hunger Games: Mockingjay – Part 2;Die Tribute von Panem – Mockingjay Teil 2;PG-13;2015;Action, Adventure, Sci-Fi;Francis Lawrence;Peter Craig, Danny Strong, Suzanne Collins;movie;6.6;The Hunger Games, Hunger Games, Die Tribute von Panem, Tribute von Panem
+The Hunger Games: The Ballad of Songbirds & Snakes;Die Tribute von Panem – The Ballad of Songbirds & Snakes;PG-13;2023;Action, Adventure, Drama;Francis Lawrence;Michael Lesslie, Michael Arndt, Suzanne Collins;movie;6.7;The Hunger Games, Hunger Games, Die Tribute von Panem, Tribute von Panem
+Pirates of the Caribbean: The Curse of the Black Pearl;Fluch der Karibik;PG-13;2003;Action, Adventure, Fantasy;Gore Verbinski;Ted Elliott, Terry Rossio, Stuart Beattie;movie;8.1;Pirates of the Caribbean, Fluch der Karibik
+Pirates of the Caribbean: Dead Man's Chest;Pirates of the Caribbean – Fluch der Karibik 2;PG-13;2006;Action, Adventure, Fantasy;Gore Verbinski;Ted Elliott, Terry Rossio, Stuart Beattie;movie;7.4;Pirates of the Caribbean, Fluch der Karibik
+Pirates of the Caribbean: At World's End;Pirates of the Caribbean – Am Ende der Welt;PG-13;2007;Action, Adventure, Fantasy;Gore Verbinski;Ted Elliott, Terry Rossio, Stuart Beattie;movie;7.1;Pirates of the Caribbean, Fluch der Karibik
+Pirates of the Caribbean: On Stranger Tides;Pirates of the Caribbean – Fremde Gezeiten;PG-13;2011;Action, Adventure, Fantasy;Rob Marshall;Ted Elliott, Terry Rossio, Stuart Beattie;movie;6.6;Pirates of the Caribbean, Fluch der Karibik
+Pirates of the Caribbean: Dead Men Tell No Tales;Pirates of the Caribbean – Salazars Rache;PG-13;2017;Action, Adventure, Fantasy;Joachim Rønning, Espen Sandberg;Jeff Nathanson, Terry Rossio, Ted Elliott;movie;6.5;Pirates of the Caribbean, Fluch der Karibik
+Jurassic Park;Jurassic Park;PG-13;1993;Action, Adventure, Sci-Fi;Steven Spielberg;Michael Crichton, David Koepp;movie;8.2;Jurassic Park, Jurassic World
+The Lost World: Jurassic Park;Vergessene Welt: Jurassic Park;PG-13;1997;Action, Adventure, Sci-Fi;Steven Spielberg;Michael Crichton, David Koepp;movie;6.6;Jurassic Park, Jurassic World
+Jurassic Park III;Jurassic Park III;PG-13;2001;Action, Adventure, Sci-Fi;Joe Johnston;Michael Crichton, Peter Buchman, Alexander Payne;movie;5.9;Jurassic Park, Jurassic World
+Jurassic World;Jurassic World;PG-13;2015;Action, Adventure, Sci-Fi;Colin Trevorrow;Rick Jaffa, Amanda Silver, Colin Trevorrow;movie;6.9;Jurassic Park, Jurassic World
+Jurassic World: Fallen Kingdom;Jurassic World: Das gefallene Königreich;PG-13;2018;Action, Adventure, Sci-Fi;J.A. Bayona;Derek Connolly, Colin Trevorrow, Michael Crichton;movie;6.1;Jurassic Park, Jurassic World
+Jurassic World: Dominion;Jurassic World: Ein neues Zeitalter;PG-13;2022;Action, Adventure, Sci-Fi;Colin Trevorrow;Emily Carmichael, Colin Trevorrow, Derek Connolly;movie;5.6;Jurassic Park, Jurassic World
+Transformers;Transformers;PG-13;2007;Action, Adventure, Sci-Fi;Michael Bay;Roberto Orci, Alex Kurtzman, John Rogers;movie;7.1;Transformers
+Transformers: Revenge of the Fallen;Transformers – Die Rache;PG-13;2009;Action, Adventure, Sci-Fi;Michael Bay;Ehren Kruger, Roberto Orci, Alex Kurtzman;movie;6.0;Transformers
+Transformers: Dark of the Moon;Transformers 3 – Die dunkle Seite des Mondes;PG-13;2011;Action, Adventure, Sci-Fi;Michael Bay;Ehren Kruger;movie;6.2;Transformers
+Transformers: Age of Extinction;Transformers: Ära des Untergangs;PG-13;2014;Action, Adventure, Sci-Fi;Michael Bay;Ehren Kruger;movie;5.6;Transformers
+Transformers: The Last Knight;Transformers: The Last Knight;PG-13;2017;Action, Adventure, Sci-Fi;Michael Bay;Art Marcum, Matt Holloway, Ken Nolan;movie;5.2;Transformers
+Bumblebee;Bumblebee;PG-13;2018;Action, Adventure, Sci-Fi;Travis Knight;Christina Hodson;movie;6.7;Transformers
+Transformers: Rise of the Beasts;Transformers: Aufstieg der Bestien;PG-13;2023;Action, Adventure, Sci-Fi;Steven Caple Jr.;Joby Harold, Darnell Metayer, Josh Peters;movie;6.0;Transformers
+Shrek;Shrek – Der tollkühne Held;PG;2001;Animation, Adventure, Comedy;Andrew Adamson, Vicky Jenson;William Steig, Ted Elliott, Terry Rossio;movie;7.9;Shrek
+Shrek 2;Shrek 2 – Der tollkühne Held kehrt zurück;PG;2004;Animation, Adventure, Comedy;Andrew Adamson, Kelly Asbury, Conrad Vernon;William Steig, Andrew Adamson, Joe Stillman;movie;7.4;Shrek
+Shrek the Third;Shrek der Dritte;PG;2007;Animation, Adventure, Comedy;Chris Miller, Raman Hui;William Steig, Andrew Adamson, Jeffrey Price;movie;6.1;Shrek
+Shrek Forever After;Für immer Shrek;PG;2010;Animation, Adventure, Comedy;Mike Mitchell;Josh Klausner, Darren Lemke, William Steig;movie;6.3;Shrek
+Puss in Boots;Der gestiefelte Kater;PG;2011;Animation, Action, Adventure;Chris Miller;Tom Wheeler, Brian Lynch, William Davies;movie;6.6;Der gestiefelte Kater, Puss in Boots
+Puss in Boots: The Last Wish;Der gestiefelte Kater: Der letzte Wunsch;PG;2022;Animation, Action, Adventure;Joel Crawford, Januel Mercado;Paul Fisher, Tommy Swerdlow, Tom Wheeler;movie;7.8;Der gestiefelte Kater, Puss in Boots
+Ice Age;Ice Age;PG;2002;Animation, Adventure, Comedy;Chris Wedge, Carlos Saldanha;Michael J. Wilson, Michael Berg, Peter Ackerman;movie;7.5;Ice Age
+Ice Age: The Meltdown;Ice Age 2 – Jetzt taut’s;PG;2006;Animation, Adventure, Comedy;Carlos Saldanha;Peter Gaulke, Gerry Swallow, Jim Hecht;movie;6.8;Ice Age
+Ice Age: Dawn of the Dinosaurs;Ice Age 3 – Die Dinosaurier sind los;PG;2009;Animation, Adventure, Comedy;Carlos Saldanha, Michael Thurmeier;Michael Berg, Peter Ackerman, Mike Reiss;movie;6.9;Ice Age
+Ice Age: Continental Drift;Ice Age 4 – Voll verschoben;PG;2012;Animation, Adventure, Comedy;Steve Martino, Michael Thurmeier;Michael Berg, Jason Fuchs, Lori Forte;movie;6.5;Ice Age
+Ice Age: Collision Course;Ice Age – Kollision voraus!;PG;2016;Animation, Adventure, Comedy;Michael Thurmeier, Galen T. Chu;Michael J. Wilson, Michael Berg, Yoni Brenner;movie;5.7;Ice Age
+Kung Fu Panda;Kung Fu Panda;PG;2008;Animation, Action, Adventure;Mark Osborne, John Stevenson;Jonathan Aibel, Glenn Berger, Ethan Reiff;movie;7.6;Kung Fu Panda
+Kung Fu Panda 2;Kung Fu Panda 2;PG;2011;Animation, Action, Adventure;Jennifer Yuh Nelson;Jonathan Aibel, Glenn Berger, Ethan Reiff;movie;7.3;Kung Fu Panda
+Kung Fu Panda 3;Kung Fu Panda 3;PG;2016;Animation, Action, Adventure;Alessandro Carloni, Jennifer Yuh Nelson;Jonathan Aibel, Glenn Berger, Ethan Reiff;movie;7.1;Kung Fu Panda
+Kung Fu Panda 4;Kung Fu Panda 4;PG;2024;Animation, Action, Adventure;Mike Mitchell, Stephanie Stine;Jonathan Aibel, Glenn Berger, Darren Lemke;movie;6.3;Kung Fu Panda
+Kung Fu Panda: Secrets of the Furious Five;Die Geheimnisse der fünf Kung-Fu-Krieger;TV-PG;2008;Animation, Short, Action, Comedy, Family;Raman Hui;Paul McEvoy (screenplay), Todd Berger (screenplay), Jed Diffenderfer (story concept);movie;7.1;Kung Fu Panda
+Kung Fu Panda Holiday;Kung Fu Panda – Ein winterliches Festmahl;Not Rated;2010;Animation, Short, Comedy;Tim Johnson;Jonathan Groff, Jon Pollack, Ethan Reiff;movie;6.7;Kung Fu Panda
+Kung Fu Panda: The Dragon Knight;Kung Fu Panda: Der Drachenritter (Serie);TV-Y7;2022;Animation, Action, Adventure;;;series;6.1;Kung Fu Panda
+John Wick;John Wick;R;2014;Action, Crime, Thriller;Chad Stahelski;Derek Kolstad;movie;7.4;John Wick
+John Wick: Chapter 2;John Wick: Kapitel 2;R;2017;Action, Crime, Thriller;Chad Stahelski;Derek Kolstad;movie;7.4;John Wick
+John Wick: Chapter 3 – Parabellum;John Wick: Kapitel 3;R;2019;Action, Crime, Thriller;Chad Stahelski;Derek Kolstad, Shay Hatten, Chris Collins;movie;7.4;John Wick
+John Wick: Chapter 4;John Wick: Kapitel 4;R;2023;Action, Crime, Thriller;Chad Stahelski;Shay Hatten, Michael Finch, Derek Kolstad;movie;7.6;John Wick
+Ballerina;Ballerina;TV-MA;2023;Action, Thriller;Chung-Hyun Lee;Chung-Hyun Lee;movie;6.3;John Wick
+The Continental;The Continental: Aus der Welt von John Wick;TV-MA;2023;Action, Crime, Thriller;;Greg Coolidge, Shawn Simmons, Kirk Ward;series;7.2;John Wick
+How to Train Your Dragon;Drachenzähmen leicht gemacht;PG;2010;Animation, Action, Adventure;Dean DeBlois, Chris Sanders;William Davies, Dean DeBlois, Chris Sanders;movie;8.1;Drachenzähmen leicht gemacht, How to Train Your Dragon
+How to Train Your Dragon 2;Drachenzähmen leicht gemacht 2;PG;2014;Animation, Action, Adventure;Dean DeBlois;Dean DeBlois, Cressida Cowell;movie;7.8;Drachenzähmen leicht gemacht, How to Train Your Dragon
+How to Train Your Dragon: The Hidden World;Drachenzähmen leicht gemacht 3: Die geheime Welt;PG;2019;Animation, Action, Adventure;Dean DeBlois;Dean DeBlois, Cressida Cowell;movie;7.4;Drachenzähmen leicht gemacht, How to Train Your Dragon
+DreamWorks Dragons;Dragons – Die Reiter von Berk | DreamWorks Dragons;TV-Y7;2012;Animation, Action, Adventure;;;series;7.9;Drachenzähmen leicht gemacht, How to Train Your Dragon
+Dragons: Race to the Edge;Dragons – Auf zu neuen Ufern;TV-Y7-FV;2015;Animation, Action, Adventure;;;series;8.2;Drachenzähmen leicht gemacht, How to Train Your Dragon
+How to Train Your Dragon: Homecoming;Drachenzähmen leicht gemacht: Heimkehr;TV-PG;2019;Animation, Action, Adventure;Tim Johnson;Jonathan Groff, Jon Pollack, Cressida Cowell;movie;7.3;Drachenzähmen leicht gemacht, How to Train Your Dragon
+The Maze Runner;Maze Runner – Die Auserwählten im Labyrinth;PG-13;2014;Action, Mystery, Sci-Fi;Wes Ball;Noah Oppenheim, Grant Pierce Myers, T.S. Nowlin;movie;6.8;The Maze Runner, Maze Runner
+Maze Runner: The Scorch Trials;Maze Runner – Die Auserwählten in der Brandwüste;PG-13;2015;Action, Adventure, Sci-Fi;Wes Ball;T.S. Nowlin, James Dashner;movie;6.3;The Maze Runner, Maze Runner
+Maze Runner: The Death Cure;Maze Runner – Die Auserwählten in der Todeszone;PG-13;2018;Action, Adventure, Sci-Fi;Wes Ball;T.S. Nowlin, James Dashner;movie;6.3;The Maze Runner, Maze Runner
+Scream;Scream – Schrei!;R;1996;Horror, Mystery;Wes Craven;Kevin Williamson;movie;7.4;Scream
+Scream 2;Scream 2;R;1997;Horror, Mystery;Wes Craven;Kevin Williamson;movie;6.3;Scream
+Scream 3;Scream 3;R;2000;Horror, Mystery;Wes Craven;Kevin Williamson, Ehren Kruger;movie;5.7;Scream
+Scream 4;Scream 4;R;2011;Horror, Mystery;Wes Craven;Kevin Williamson;movie;6.2;Scream
+Scream (2022);Scream (2022);;2022;;;;movie;;Scream
+Scream VI;Scream VI;R;2023;Horror, Mystery, Thriller;Matt Bettinelli-Olpin, Tyler Gillett;James Vanderbilt, Guy Busick, Kevin Williamson;movie;6.4;Scream
+Kingsman: The Secret Service;Kingsman: The Secret Service;R;2015;Action, Adventure, Comedy;Matthew Vaughn;Jane Goldman, Matthew Vaughn, Mark Millar;movie;7.7;Kingsman
+Kingsman: The Golden Circle;Kingsman: The Golden Circle;R;2017;Action, Adventure, Comedy;Matthew Vaughn;Jane Goldman, Matthew Vaughn, Mark Millar;movie;6.7;Kingsman
+The King’s Man;The King’s Man: The Beginning;R;2021;Action, Adventure, Thriller;Matthew Vaughn;Matthew Vaughn, Karl Gajdusek, Mark Millar;movie;6.3;Kingsman
+Paddington;Paddington;PG;2015;Adventure, Comedy, Family;Paul King;Paul King, Hamish McColl, Michael Bond;movie;7.3;Paddington
+Paddington 2;Paddington 2;PG;2018;Adventure, Comedy, Family;Paul King;Paul King, Simon Farnaby, Michael Bond;movie;7.8;Paddington
+Rise of the Planet of the Apes;Planet der Affen: Prevolution;PG-13;2011;Action, Drama, Sci-Fi;Rupert Wyatt;Rick Jaffa, Amanda Silver, Pierre Boulle;movie;7.6;Planet der Affen, Planet of the Apes
+Dawn of the Planet of the Apes;Planet der Affen: Revolution;PG-13;2014;Action, Adventure, Drama;Matt Reeves;Mark Bomback, Rick Jaffa, Amanda Silver;movie;7.6;Planet der Affen, Planet of the Apes
+War for the Planet of the Apes;Planet der Affen: Survival;PG-13;2017;Action, Adventure, Drama;Matt Reeves;Mark Bomback, Matt Reeves, Rick Jaffa;movie;7.4;Planet der Affen, Planet of the Apes
+Kingdom of the Planet of the Apes;Planet der Affen: New Kingdom;PG-13;2024;Action, Adventure, Drama;Wes Ball;Josh Friedman, Rick Jaffa, Amanda Silver;movie;6.9;Planet der Affen, Planet of the Apes
+The Chronicles of Narnia: The Lion, the Witch and the Wardrobe;Die Chroniken von Narnia: Der König von Narnia;PG;2005;Adventure, Family, Fantasy;Andrew Adamson;Ann Peacock, Andrew Adamson, Christopher Markus;movie;6.9;Chronicles of Narnia, TheChronicles of Narnia, Chroniken von Narnia, Die Chroniken von Narnia
+The Chronicles of Narnia: Prince Caspian;Die Chroniken von Narnia: Prinz Kaspian von Narnia;PG;2008;Action, Adventure, Family;Andrew Adamson;Andrew Adamson, Christopher Markus, Stephen McFeely;movie;6.5;Chronicles of Narnia, TheChronicles of Narnia, Chroniken von Narnia, Die Chroniken von Narnia
+The Chronicles of Narnia: The Voyage of the Dawn Treader;Die Chroniken von Narnia: Die Reise auf der Morgenröte;PG;2010;Adventure, Family, Fantasy;Michael Apted;Christopher Markus, Stephen McFeely, Michael Petroni;movie;6.3;Chronicles of Narnia, TheChronicles of Narnia, Chroniken von Narnia, Die Chroniken von Narnia
