@@ -195,5 +195,13 @@ namespace API_Project
 
             return results;
         }
+
+        private void SearchBox_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if(e.Key == System.Windows.Input.Key.Return)
+            {
+                SearchButton_Click(sender, e);
+            }
+        }
     }
 }
